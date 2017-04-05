@@ -652,6 +652,7 @@
       throw checkTarget + ' is not a target';
     }
 
+    attrs.callback('cant find', null);
     kill(start);
   }
 
