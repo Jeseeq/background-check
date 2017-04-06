@@ -61,7 +61,7 @@
       complex: 'background--complex'
     });
 
-    if (supported === undefined) {
+    if (supported === undefined || supported === null) {
       checkSupport();
 
       if (supported) {
